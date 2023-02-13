@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(169, 103, 231);
+}
+.items{
+    position: absolute;
+    top: 100px;
+    left: 450px;
+    
+}
+.contanier{
+    background-color: #FFFF;
+    width: 400px;
+    height: 80px;
+    padding:  0px 20px;
+    border-radius: 5px;
+}
+#AddInput{
+    margin: 20px;
+   width: 250px;
+   height: 30px;
+   border-radius: 4px;
+   border: rgb(108, 92, 124) 1px solid;
+}
+
+#add{
+    
+    width: 80px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(134, 44, 218);
+    color: #FFFF;
+    
+}
+
+#itemDisplay{
+position: relative;
+    background-color: #FFFF;
+    margin-top: 40px;
+    padding:  20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+   
+ 
+} 
+.active{
+ text-decoration: line-through;
+   
+}
+#icon{
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(134, 44, 218);
+    color: #FFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ i{
+    font-size: 16px;
+}
+
